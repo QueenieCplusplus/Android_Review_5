@@ -132,7 +132,34 @@ Linear Layout &amp; Click Handler
                      }
 
                      private fun functionCalled(){
+                     
+                            
+                          val boxOneText = findViewById<TextView>(R.id.text_one)
+                          val boxTwoText = findViewById<TextView>(R.id.text_two)
+                          val boxThreeText = findViewById<TextView>(R.id.text_three)
+     
+                          val rootLayout = findViewById<View>(R.id.constraint_layout)
 
+                          val redButton = findViewById<Button>(R.id.button_red)
+                          val greenButton = findViewById<Button>(R.id.button_blue)
+                          
+                          // 將畫面中元件組成一個集合型別 List<> 的實例
+                          // 這些集合中的成員皆為 View 型別
+                          // val seperateView: List<View> 為宣告
+                          // val seperateView: List<View> = ListOf (a, b, c) 為定義
+                          
+                          val seperateView: List<View> = ListOf (
+                       
+                            boxOneText, boxTwoText, boxThreeText, 
+                            rootLayout, redButton, greenButton
+                          
+                          )
+                          
+                          // for-in loop
+                          // setOnClickListner  不只可在 Button 也可以在 TextView 上添加
+                          for (i in eperateView){
+                             i.setOnClickListner{ wrappedFun(it) }
+                          }
 
 
 
