@@ -61,4 +61,48 @@ Linear Layout &amp; Click Handler
 
 3. source lines of code.
 
+       package com.android.example.katesapp
+       
+       [default modules]
+       import androidx.appcompat.app.AppCompatActivity
+       import android.os.Bundle
+       
+       [UI element]
+       import android.widget.Button
+       import android.widget.TextView
+       
+       [view]
+       import android.view.View
+       
+       [kotlin]
+       import kotlinx.android.synthetic.main.activity_main.*
+       
+       class MainActivity: AppCompatActivity(){
+       
+              override fun onCreate(savedInstanceState: Bundle?){
+              
+                     super.onCreate(savedInstanceState)
+                     setContentView(R.layout.activity_main)
+                     
+                     functionCalled()
+              
+              
+              }
+              
+              private fun functionCalled(){
+              
+              
+              
+              
+              }
+              
+              private fun wrappedFun(){
+              
+              
+              
+              }
+       
+      
+       }
+
    
