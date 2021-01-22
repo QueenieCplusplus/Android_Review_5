@@ -99,7 +99,7 @@ Linear Layout &amp; Click Handler
       
        }
 
- 4. databinding without databind modules.
+ 4. databinding without databind modules and add onClickListner to TexTView & Button.
  
 
              // MainActivity.kt
