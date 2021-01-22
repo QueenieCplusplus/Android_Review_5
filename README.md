@@ -53,3 +53,7 @@ Linear Layout &amp; Click Handler
        >
        
        </androidx.constraintlayout.widget.ConstraintLayout>
+       
+ 2. to setup properties of TextView and Button.
+ 
+     https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/ColorMyViews/app/src/main/res/layout/activity_main.xml
