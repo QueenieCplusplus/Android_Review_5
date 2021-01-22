@@ -16,22 +16,40 @@ Linear Layout &amp; Click Handler
         android:id=""
        >
        
-       <TextView/>
+       <TextView
+          android:id="@+id/text_one"
+       />
        
-       <TextView/>
+       <TextView
+           android:id="@+id/text_two"
+       />
        
-       <TextView/>
+       <TextView
+          android:id="@+id/text_three"
+       />
        
-       <TextView/>
+       <TextView
+           android:id="@+id/text_four"
+       />
        
-       <TextView/>
+       <TextView
+            android:id="@+id/text_five"
+       />
        
-       <TextView/>
+       <TextView
+            android:id="@+id/label_text"
+       />
        
-       <TextView/>
+       <TextView
+            android:id="@+id/info_text"
+       />
        
-       <Button/>
+       <Button
+            android:id="@+id/button_red"
+       />
        
-       <Button/>
+       <Button/
+            android:id="@+id/button_blue"
+       >
        
        </androidx.constraintlayout.widget.ConstraintLayout>
