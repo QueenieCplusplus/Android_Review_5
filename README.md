@@ -2,7 +2,7 @@
 Linear Layout &amp; Click Handler
 
 
-1. create a project in android studio, and design a layout using constraintLayout style, and add 7 TextViews + 2 Buttons.
+1. create a project in android studio, and design a layout using constraintLayout style, and add 5 TextViews + 2 Buttons.
 
        // activity_main.kt
        
@@ -26,14 +26,6 @@ Linear Layout &amp; Click Handler
        
        <TextView
           android:id="@+id/text_three"
-       />
-       
-       <TextView
-           android:id="@+id/text_four"
-       />
-       
-       <TextView
-            android:id="@+id/text_five"
        />
        
        <TextView
@@ -153,15 +145,22 @@ Linear Layout &amp; Click Handler
                                 // lambda
                                 // {param -> body}
                                 // (param) -> {body}
-                                R.id.text_one -> 
+                                
+                                // use color class
+                                R.id.text_one -> view.setBackgroundColor(Color.BLUE)
+                                R.id.text_two -> view.setBackgroundColor(Color.PURPLE)
+                                R.id.text_three -> view.setBackgroundColor(Color.GREEN)
+                                
+                                // use customed color 
+                                R.id.button_red -> text_two.setBackgroundResource(R.color.my_pink)
+                                R.id.button_blue -> text_one.setBackgroundResource(R.color.my_pink) 
+                                
+                                else -> view.setBackgroundColor(Color.GREEN)
                             
                             
                             }
 
-
-
                      }
-
 
               }
 
